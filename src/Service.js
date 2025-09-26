@@ -18,7 +18,7 @@ async function Service() {
 
     try {
         // const res = await axios.get('/api/jokes');  // this works for proxy in local project not for deployment
-        const res = await axios.get('https://backend-bay-phi-78.vercel.app/api/jokes');
+        const res = await axios.get('https://backend-bay-phi-78.vercel.app/api/jokes'); // Better option to use env variable for this get request url to hide the server origin api.
         
         return res.data;
     } catch (error) {
