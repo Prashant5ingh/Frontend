@@ -17,8 +17,8 @@ async function Service() {
     console.log("service calls")
 
     try {
-        const res = await axios.get('/api/jokes');  // this works for proxy
-        // const res = await axios.get('http://localhost:8000/api/jokes');
+        // const res = await axios.get('/api/jokes');  // this works for proxy
+        const res = await axios.get('http://localhost:8000/api/jokes');
         
         return res.data;
     } catch (error) {
