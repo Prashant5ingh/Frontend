@@ -1,4 +1,4 @@
-## Test Frontend for deployment on vercel along with backend nodejjs
+## Test Frontend for deployment on vercel along with backend nodejs
 
 # React + Vite
 
